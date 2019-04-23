@@ -1,0 +1,20 @@
+body{
+	background-color: #E6E0F8;
+}
+form{
+	margin: 10% 20% 5% 20%;
+	padding: 1% 2% 1% 2%;
+	background-color: white;
+    border-radius: 10px;
+}
+.cp{
+    display: inline-block;
+    width: 200px;
+    margin-left: 20%;
+}
+label, input, textarea, legend{
+    font-size: 30px;
+}
+.bt{
+    margin-left: 40%;
+}
