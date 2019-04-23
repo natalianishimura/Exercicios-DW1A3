@@ -1,1 +1,37 @@
-
+body{
+	background-image: url("bg-gelo.jpg");
+}
+div{
+	margin: 3%;
+	padding: 1% 2% 1% 2%;
+	background-color: white;
+	border-radius: 10px;
+}
+.titulo{
+	text-align: center;
+}
+.imge{
+	width: 90%;
+	height: 90%;
+}	
+figure{
+	text-align: center;
+	margin: 2%;
+}
+.td{
+	display: table;
+}
+table{
+	border: solid 1px;
+}
+th{
+	border: solid 1px;
+}
+td{
+	border: solid 1px;
+}
+.cx{
+	width: 40%;
+	margin-right: 3%;
+	float: left;
+}
