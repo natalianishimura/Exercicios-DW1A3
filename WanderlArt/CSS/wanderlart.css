@@ -1,41 +1,112 @@
 *{margin: 0; padding: 0;}
 body{
-	background-image: url("fundo.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed; 
-	background-size: cover;
+	font: 400 15px Lato, sans-serif;
+    	line-height: 1.8;
+    	color: #818181;
 }
-.menu{
-	/*background-color: red;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;*/
-	list-style:none; 
-	border:1px solid #c0c0c0; 
-	float:left; 
+.jumbotron { 
+	background-color: #59BBA6;
+	color: #ffffff;
+	padding: 100px 25px;
+	font-family: Montserrat, sans-serif;
 }
-.menu li{
-	position:relative; 
-	float:left; 
-	border-right:1px solid #c0c0c0; 
+.bg-grey {
+	background-color: #f6f6f6;
 }
-.menu li a{
-	color:#333; 
-	text-decoration:none; 
-	padding:5px 10px; 
-	display:block;
+.container-fluid {
+	padding: 60px 50px;
 }
-.menu li a:hover{
-	background:#333; 
-	color:#fff; 
-	-moz-box-shadow:0 3px 10px 0 #CCC; 
-	-webkit-box-shadow:0 3px 10px 0 #ccc; 
-	text-shadow:0px 0px 5px #fff; 
+.logo {
+	font-size: 200px;
+	color: #59BBA6;
 }
-.logo_menu{
-	width: 10%;
-	height: 10%;
-	margin: 1%;
+@media screen and (max-width: 768px) {
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #59BBA6;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #59BBA6 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #59BBA6;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.container img { 
+	max-width: 400px; 
+}
+.container1 img { 
+	max-width: 30px; 
 }
