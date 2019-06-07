@@ -30,3 +30,8 @@ $(document).ready(function(){
 					});
 				});
 })
+function Enviar(){
+
+		alert('Mensagem enviada!');
+
+}
