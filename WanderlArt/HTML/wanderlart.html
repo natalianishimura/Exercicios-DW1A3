@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="wanderlart.css" />
-    <script type="text/javascript" src="wanderlart.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/wanderlart.css" />
+    <script type="text/javascript" src="js/wanderlart.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<!--NAV BAR-->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"></button>
-					<a class="navbar-brand" href="wanderlart.html"><div class="container1"><img src="WanderlArt.png" alt="logo"/></div></a>
+					<a class="navbar-brand" href="wanderlart.html"><div class="container1"><img src="img/WanderlArt.png" alt="logo"/></div></a>
 					<a class="navbar-brand" href="wanderlart.html">WanderlArt</a>
 			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
+			<div class="collapse navbar-collapse" id="myNavbar">			
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#empresa">Empresa</a></li>  
 					<li><a href="#objetivo">Objetivo</a></li>
@@ -42,41 +42,71 @@
 		<div class="row">
 			<div class="col-sm-8">
 				<h2>Sobre a WanderlArt</h2><br>
-				<h4>xxxxxxxxxxxxxxxxx</h4><br>
-				<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+				<p>O nome da empresa WanderlArt foi derivado da palavra “Wanderlust”, que provém do alemão e significa “forte desejo de conhecer o mundo e assim, compreender de maneira expansiva a razão de nossa própria existência”. É comumente associada à viajantes, porém também é possível atribuir à artistas, pois estes anseiam em conhecer cada vez mais o mundo da arte para se autodescobrirem.</p>
 			</div>
 			<div class="col-sm-4">
 				<div class="container"><img src="WanderlArt.png" alt="logo"/></div>
-				<!--<span class="glyphicon glyphicon-signal logo"></span>-->
 			</div>
 		</div>
 	</div>
 
 	<!--OBJETIVO-->
 	<div id="objetivo" class="container-fluid bg-grey">
-		<div class="row">
-			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-globe logo slideanim"></span>
-			</div>
-			<div class="col-sm-8">
-				<h2>Objetivos</h2><br>
-				<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-				<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-			</div>
-		</div>
+		<h2>Objetivos</h2>
+		<p>A empresa WanderlArt tem como objetivo auxiliar os artistas amadores e/ou profissionais a divulgarem e venderem seus trabalhos.</p>
 	</div>
 	
 	<!--SERVIÇO-->
 	<div id="servico" class="container-fluid text-center">
 		<h2>SERVIÇO</h2>
-		<h4>Como será a plataforma.</h4>
+		<p>O serviço WanderlArt trará o nome da empresa e terá como objetivo se tornar uma plataforma completa para o artista, contendo a comunidade para divulgar seus trabalhos e todo o suporte para a venda dos mesmos, não sendo necessário uma página separada para tal processo.</p><br>
+		<!--CAROUSEL-->
+		<h4>Protótipos do site</h4>
+			<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/site_map.png" alt="Site Map">
+						<h4>Site Map</h4>
+					</div>
+					<div class="item">
+						<img src="img/home.png" alt="Site Map">
+						<h4>Home</h4>
+					</div>
+					<div class="item">
+						<img src="img/comunidade.png" alt="Site Map">
+						<h4>Página da Comunidade</h4>
+					</div>
+					<div class="item">
+						<img src="img/artista.png" alt="Site Map">
+						<h4>Página do Artista</h4>
+					</div>
+					<div class="item">
+						<img src="img/visitante.png" alt="Site Map">
+						<h4>Página do Visitante</h4>
+					</div>
+					<div class="item">
+						<img src="img/empresa.png" alt="Site Map">
+						<h4>Página sobre a Empresa</h4>
+					</div>
+				</div>
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
 	</div>
 	
 	<!--CRIADORA-->
 	<div id="criadora" class="container-fluid text-center bg-grey">
 		<h2>Sobre a cridora</h2><br>
-		<h4>xxxxxxxxxxx</h4>
-		<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+		<h4>Natália Harumi Navareño Nishimura - SP3013413</h4>
+		<p>Estudante do Curso de Análise e Desenvolvimento de Sistemas do IFSP. Realizou esse projeto para a disciplina Desenvolvimento Web I, Profº William.</p>
 	</div>
 		
 		
@@ -91,7 +121,8 @@
 				<p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
 				<p><span class="glyphicon glyphicon-envelope"></span> wanderlart@email.com</p>
 			</div>
-			<div class="col-sm-7 slideanim">
+			<div class="col-sm-7">
+			<form name="cont">
 				<div class="row">
 					<div class="col-sm-6 form-group">
 						<input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
@@ -103,9 +134,10 @@
 				<textarea class="form-control" id="comments" name="comments" placeholder="Comentário" rows="5"></textarea><br>
 				<div class="row">
 					<div class="col-sm-12 form-group">
-						<button class="btn btn-default pull-right" type="submit">Enviar</button>
+						<button class="btn btn-default pull-right" type="submit" onclick="Enviar()">Enviar</button>
 					</div>
 				</div>
+			</form>
 			</div>
 		</div>
 	</div>
